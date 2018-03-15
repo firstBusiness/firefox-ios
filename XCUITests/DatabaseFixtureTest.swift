@@ -18,7 +18,7 @@ class DatabaseFixtureTest: BaseTestCase {
     }
 
     func testHistoryDatabaseFixture() {
-        let file = "testHistoryDatabase500-browser.db"
+        let file = "testHistoryDatabase700-browser.db"
         let arg = LaunchArguments.LoadDatabasePrefix + file
         app.terminate()
         restart(app, args: [LaunchArguments.SkipIntro, LaunchArguments.SkipWhatsNew, arg])
